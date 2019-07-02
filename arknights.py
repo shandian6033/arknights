@@ -1,9 +1,10 @@
+import os
 import requests
 import json
 import pandas as pd
 from scipy.optimize import linprog
 
-FILE_PATH = './all_in_one.xlsx'
+FILE_PATH = os.path.dirname(os.path.realpath(__file__)) + '\\all_in_one.xlsx'
 API_URL = 'https://penguin-stats.io/PenguinStats/api/result/matrix'
 PARAMS = {
     'show_item_details': True,
@@ -17,6 +18,7 @@ MATERIAL_API_COLUMNS = [
     'times',  # 样本数
     'apCost'
 ]
+
 
 def get_material_api_data(url, params):
     try:
@@ -120,7 +122,7 @@ if __name__ == '__main__':
     with pd.ExcelWriter(FILE_PATH) as file_writer:
         try:
             stage_df, new_template = prepare_stage_data(stage_df, update_template=True)
-            action_df = stage_df.append(manufacture_df, ignore_index=True, sort=True)
+            action_df = stage_df.append(manufacture_df, ignore_index=True)
             todo_df, _ = action_by_demand(action_df, my_demand_df)
             new_template.to_excel(file_writer, sheet_name='Stage', index=False)
             manufacture_df.to_excel(file_writer, sheet_name='Manufacture', index=False)

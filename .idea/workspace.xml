@@ -13,39 +13,10 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/arknights.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="57">
-              <caret line="3" column="23" selection-start-line="3" selection-start-column="23" selection-end-line="3" selection-end-column="23" />
+            <state relative-caret-position="95">
+              <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
               <folding>
-                <element signature="e#0#15#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/stage_table.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="310555">
-              <caret line="16724" column="10" selection-start-line="16724" selection-start-column="10" selection-end-line="16724" selection-end-column="10" />
-              <folding>
-                <element signature="e#34#4643#0" />
-                <element signature="e#216312#220608#0" />
-                <element signature="e#217646#220559#0" />
-                <element signature="e#220718#220896#0" />
-                <element signature="e#420332#420469#0" />
-                <element signature="e#420481#420619#0" />
-                <element signature="e#420631#420769#0" />
-                <element signature="e#420781#420918#0" />
-                <element signature="e#420930#421070#0" />
-                <element signature="e#421082#421221#0" />
-                <element signature="e#421233#421374#0" />
-                <element signature="e#421386#421529#0" />
-                <element signature="e#421541#421685#0" />
-                <element signature="e#421697#421843#0" />
-                <element signature="e#447631#453896#0" />
-                <element signature="e#453916#460185#0" />
-                <element signature="e#460290#460383#0" />
-                <element signature="n#!!block;n#campaigns#0;n#!!top" />
+                <element signature="e#0#9#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -73,7 +44,11 @@
       <find>CE-5</find>
       <find>2-7</find>
       <find>4-6</find>
+      <find>append</find>
     </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -89,12 +64,12 @@
     <option name="width" value="1750" />
     <option name="height" value="1030" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -106,10 +81,12 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -172,19 +149,19 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3297587" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.3297587" />
-      <window_info anchor="bottom" x="465" y="158" width="1018" height="537" id="Debug" order="3" type="WINDOWED" weight="0.3994638" />
+      <window_info anchor="bottom" x="405" y="163" width="982" height="607" id="Debug" order="3" type="WINDOWED" weight="0.3994638" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Terminal" order="8" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Python Console" order="10" weight="0.3297587" />
+      <window_info anchor="bottom" id="Python Console" order="10" visible="true" weight="0.3297587" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Project" order="3" sideWeight="0.49597856" visible="true" weight="0.25635594" />
-      <window_info anchor="right" id="Structure" order="4" sideWeight="0.50402147" side_tool="true" visible="true" weight="0.25635594" />
+      <window_info anchor="right" content_ui="combo" id="Project" order="3" sideWeight="0.492" visible="true" weight="0.26765537" />
+      <window_info anchor="right" id="Structure" order="4" sideWeight="0.508" side_tool="true" visible="true" weight="0.26765537" />
     </layout>
   </component>
   <component name="editorHistoryManager">
@@ -244,39 +221,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/stage_table.json" />
     <entry file="file://$PROJECT_DIR$/arknights.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="3" column="23" selection-start-line="3" selection-start-column="23" selection-end-line="3" selection-end-column="23" />
+        <state relative-caret-position="95">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
           <folding>
-            <element signature="e#0#15#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/stage_table.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="310555">
-          <caret line="16724" column="10" selection-start-line="16724" selection-start-column="10" selection-end-line="16724" selection-end-column="10" />
-          <folding>
-            <element signature="e#34#4643#0" />
-            <element signature="e#216312#220608#0" />
-            <element signature="e#217646#220559#0" />
-            <element signature="e#220718#220896#0" />
-            <element signature="e#420332#420469#0" />
-            <element signature="e#420481#420619#0" />
-            <element signature="e#420631#420769#0" />
-            <element signature="e#420781#420918#0" />
-            <element signature="e#420930#421070#0" />
-            <element signature="e#421082#421221#0" />
-            <element signature="e#421233#421374#0" />
-            <element signature="e#421386#421529#0" />
-            <element signature="e#421541#421685#0" />
-            <element signature="e#421697#421843#0" />
-            <element signature="e#447631#453896#0" />
-            <element signature="e#453916#460185#0" />
-            <element signature="e#460290#460383#0" />
-            <element signature="n#!!block;n#campaigns#0;n#!!top" />
+            <element signature="e#0#9#0" expanded="true" />
           </folding>
         </state>
       </provider>
